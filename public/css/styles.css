@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  background: url("../background/background.jpg");
+  background-size: cover;
+  justify-content: flex-end;
+  height: 100vh;
+  
+    
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-right: 700px;
+}
+
+
+#todoside {
+  min-width: 300px;
+  height: 100%;
+  width: 25%;
+  padding: -40px;
+  background-color: rgba(207,181,59, 0.8);
+
+
+
+}
+
+.todo-container {
+height: 100%;
+display: block;
+
+}
+.row{
+  padding:-15px;
+  
+}
+.todo-list {
+  margin-top: 50px;
+  width: 100%;
+}
+.col-10{
+  padding: 0px;
+}
+.btn-success {
+  display: none;
+}
+
+input.new-item:focus {
+  outline: none;
+  border: none;
+}
+
+.list-group-flush > button.delete,
+.list-group-flush > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
